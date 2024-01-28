@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Programming</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="mediaqueries.css">
+        <style>
+            body{
+                overflow-y: hidden;
+            }
+        </style>
+    </head>
+    <body>
+        <nav id="desktop-nav">
+            <div class="logo"><a href="index.html">Kush Agrawal</a></div>
+            <div>
+                <ul class="nav-links">
+                <li><a href="index.html#about">About</a></li>
+                <li><a href="index.html#hobbies">Hobbies</a></li>
+                <li><a href="index.html#contact">Contact</a></li>
+            </ul>
+            </div>
+        </nav>
+        <nav id="hamburger-nav">
+            <div class="logo">Kush Agrawal</div>
+            <div class="hamburger-menu">
+                <div class="hamburger-icon" onclick="toggleMenu()">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            <div class="menu-links">
+                <li><a href="index.html#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="index.html#hobbies" onclick="toggleMenu()">Hobbies</a></li>
+                <li><a href="index.html#contact" onclick="toggleMenu()">Contact</a></li>
+            </div>
+        </div>
+
+        </nav>
+        <section id="programming">
+            <h1 class="title">Programming</h1>
+            <div class="section-container">
+                <div class="section__pic-container">
+                    <img src="./assets/3426526.jpg" alt="Profile picture" class="about-pic">
+                </div>
+            <div class="about-details-container">
+
+                <div class="text-container" style="width:75% ; padding-left: 150px; font-size: 1.25rem; line-height: 2rem; ">
+                    <p>I am an experienced programmer proficient in C++ with a strong grasp of data structures and algorithms. Recently, I've ventured into web development, learning the basics of HTML and CSS. This expansion adds a new dimension to my skill set, enabling me to create well-rounded software solutions that blend robust algorithms with visually appealing user interfaces. My commitment to ongoing learning positions me as a versatile programmer ready to tackle diverse challenges in the evolving field of software development.
+                    </p>
+                </div>
+            </div>
+            </div>
+        </section>
+    </body>
+</html>
